@@ -12,20 +12,21 @@ import com.example.multi_screen.model.Ping;
 
 import java.util.Locale;
 
-public class Activity2 extends AppCompatActivity {
+public class Activity7 extends AppCompatActivity {
 
 
-    Button act2_button;
+    Button act_button3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_2);
-        act2_button = findViewById(R.id.act2_button);
-    }
-    public void switch2_activites(View view) {
-        Intent act2_action =  new Intent(this, Activity3.class);
-        startActivity(act2_action);
+        setContentView(R.layout.activity_7);
+        act_button3 = findViewById(R.id.act_button3);
 
+    }
+
+    public void switch_activites(View view) {
+        Intent act_action = new Intent(this, Activity7.class);
+        startActivity(act_action);
     }
 }

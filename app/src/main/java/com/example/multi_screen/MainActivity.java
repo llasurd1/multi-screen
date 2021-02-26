@@ -14,21 +14,17 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Ping pinger;
+
     Button act_button;
-    TextView textPings;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         act_button = findViewById(R.id.act_button);
-        textPings = (TextView) findViewById(R.id.textPings);
 
     }
 
     public void switch_activites(View view) {
-        pinger.pressed();
-        textPings.setText(pinger.getNumPressed());
         Intent act_action =  new Intent(this, Activity2.class);
         startActivity(act_action);
     }

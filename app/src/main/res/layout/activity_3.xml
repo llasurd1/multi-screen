@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity2">
+    tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="What did I say about the button?"
+        android:text="Okay now im getting mad."
+        android:textSize="60px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:id = "@+id/textPings2"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:layout_width="300px"
@@ -24,9 +24,10 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:id = "@+id/act2_button"
+        android:id = "@+id/act_button3"
         android:layout_marginTop = "300px"
-        android:onClick="switch2_activites"/>
+        android:onClick="switch_activites"/>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
