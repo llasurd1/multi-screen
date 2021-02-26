@@ -13,7 +13,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:id = "@+id/textPings2"/>
 
     <Button
         android:layout_width="200px"
@@ -25,5 +26,6 @@
         android:id = "@+id/act2_button"
         android:layout_marginTop = "300px"
         android:onClick="switch2_activites"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
